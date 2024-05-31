@@ -4,12 +4,10 @@ import AVTR1 from "../../assets/avatar1.jpg";
 import AVTR2 from "../../assets/avatar2.jpg";
 import AVTR3 from "../../assets/avatar3.jpg";
 import AVTR4 from "../../assets/avatar4.jpg";
-
-// import { Navigation } from "swiper";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const peers = [
   {
@@ -45,17 +43,16 @@ const Testimonials = () => {
       <h2>Testimonials</h2>
       <Swiper
         className="container testimonials_container"
-        // navigation={true}
         modules={[Pagination]}
         spaceBetween={40}
         slidesPerView={1}
-        pagination={{clickable:true}}
+        pagination={{ clickable: true }}
       >
         {peers.map(({ avatar, name, review }, index) => {
           return (
             <SwiperSlide key={index} className="testimonial">
               <div className="peer_avatar">
-                <img src={avatar} alt={name} />
+                <img src={avatar} />
               </div>
               <h5 className="peer_name">{name}</h5>
               <small className="peer_review">{review}</small>

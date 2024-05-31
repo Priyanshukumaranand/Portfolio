@@ -12,43 +12,43 @@ const data =[
     id:1,
     image:IMG1,
     title:'img1',
-    github:'#',
-    demo:'#',
+    github:'"https://github.com/Priyanshukumaranand"',
+    demo:'"https://github.com/Priyanshukumaranand"',
   },
   {
     id:2,
     image:IMG2,
     title:'img1',
-    github:'#',
-    demo:'#',
+    github:'https://github.com/Priyanshukumaranand',
+    demo:'https://github.com/Priyanshukumaranand',
   },
   {
     id:3,
     image:IMG3,
     title:'img1',
-    github:'#',
-    demo:'#',
+    github:'https://github.com/Priyanshukumaranand',
+    demo:'https://github.com/Priyanshukumaranand',
   },
   {
     id:4,
     image:IMG4,
     title:'img1',
-    github:'#',
-    demo:'#',
+    github:'https://github.com/Priyanshukumaranand',
+    demo:'https://github.com/Priyanshukumaranand',
   },
   {
     id:5,
     image:IMG5,
     title:'img1',
-    github:'#',
-    demo:'#',
+    github:'https://github.com/Priyanshukumaranand',
+    demo:'https://github.com/Priyanshukumaranand',
   },
   {
     id:6,
     image:IMG6,
     title:'img1',
-    github:'#',
-    demo:'#',
+    github:'https://github.com/Priyanshukumaranand',
+    demo:'https://github.com/Priyanshukumaranand',
   }
 
 ]
@@ -57,7 +57,7 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio__container">
        {
