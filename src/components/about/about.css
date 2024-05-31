@@ -20,7 +20,7 @@
   transition: var(--transition);
 }
 
-.about_me-image:hower {
+.about_me-image:hover {
   transform: rotate(0);
 }
 
