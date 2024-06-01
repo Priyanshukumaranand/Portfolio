@@ -1,54 +1,54 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG1 from '../../assets/Portfolioimg.png'
+import IMG2 from '../../assets/EcomNext.png'
+import IMG3 from '../../assets/Uchat.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG5 from '../../assets/Todo.png'
+import IMG6 from '../../assets/VirtualWorld.png'
 
 const data =[
   {
     id:1,
     image:IMG1,
-    title:'img1',
-    github:'"https://github.com/Priyanshukumaranand"',
+    title:'Portfolio(ReactJS)',
+    github:'https://github.com/Priyanshukumaranand/Portfolio',
     demo:'"https://github.com/Priyanshukumaranand"',
   },
   {
     id:2,
     image:IMG2,
-    title:'img1',
-    github:'https://github.com/Priyanshukumaranand',
+    title:'Ecommerce-App (NextJS)',
+    github:'https://github.com/Priyanshukumaranand/Ecommerce-App',
     demo:'https://github.com/Priyanshukumaranand',
   },
   {
     id:3,
     image:IMG3,
-    title:'img1',
-    github:'https://github.com/Priyanshukumaranand',
+    title:'Chat Application',
+    github:'https://github.com/Priyanshukumaranand/U_chat',
     demo:'https://github.com/Priyanshukumaranand',
   },
-  {
-    id:4,
-    image:IMG4,
-    title:'img1',
-    github:'https://github.com/Priyanshukumaranand',
-    demo:'https://github.com/Priyanshukumaranand',
-  },
+  // {
+  //   id:4,
+  //   image:IMG4,
+  //   title:'Ecommerce-App (MERN)',
+  //   github:'https://github.com/Priyanshukumaranand/ecommerce-website',
+  //   demo:'https://github.com/Priyanshukumaranand',
+  // },
   {
     id:5,
     image:IMG5,
-    title:'img1',
-    github:'https://github.com/Priyanshukumaranand',
-    demo:'https://github.com/Priyanshukumaranand',
+    title:'TODO List App(ReactJS)',
+    github:'https://github.com/Priyanshukumaranand/Todo-list',
+    demo:'https://todo-list-application-gdo4.onrender.com/',
   },
   {
     id:6,
     image:IMG6,
-    title:'img1',
+    title:'Virtual World(Javascript)',
     github:'https://github.com/Priyanshukumaranand',
-    demo:'https://github.com/Priyanshukumaranand',
+    demo:'#',
   }
 
 ]
@@ -70,7 +70,7 @@ const Portfolio = () => {
             <h3 className='portfolio__item h3'>{title}</h3>
             <div className='portfolio__cta'>
               <a href={github} target="_blank" className='btn' >Github</a>
-              <a href={demo} target="_blank" className='btn btn-primary'>Live Demo</a>
+              <a href={demo} target="_blank" className='btn btn-primary' >Live Demo</a>
             </div>
           </article>
           )
