@@ -11,29 +11,29 @@ import "swiper/css/pagination";
 
 const peers = [
   {
-    avatar: AVTR1,
-    name: "Shahier Nashaat",
+    avatar: AVTR2,
+    name: "TO BE UPDATED",
     review:
-      "Nulla consectetur dolore ad ea consequat consectetur elit ea eu non. Dolore et reprehenderit esse sint reprehenderit eiusmod. Est exercitation est labore sit nisi aute est esse quis fugiat cupidatat cillum. Pariatur nulla cupidatat velit ex pariatur sunt irure quis. Nostrud amet fugiat reprehenderit laborum aute dolor ea occaecat amet esse dolor do nostrud.",
+      "Nulla consectetur dolore ad ea consequat consectetur elit ea eu non. Est exercitation est labore sit nisi aute est esse quis fugiat cupidatat cillum. Pariatur nulla cupidatat velit ex pariatur sunt irure quis. Nostrud amet fugiat reprehenderit laborum aute dolor ea occaecat amet esse dolor do nostrud.",
   },
   {
     avatar: AVTR2,
-    name: "Chimwewme Sinyinza",
+    name: "TO BE UPDATED",
     review:
       "Ex consequat deserunt anim magna sint Lorem. Eiusmod pariatur sunt nostrud veniam in sint consequat est sunt. Labore sint velit consequat quis. Deserunt mollit aute enim elit. Ex fugiat ex dolor consequat ea veniam mollit. Cupidatat sint elit dolor laboris pariatur dolor voluptate excepteur.",
   },
-  {
-    avatar: AVTR3,
-    name: "Chimwewme Sinyinza",
-    review:
-      "Ex consequat deserunt anim magna sint Lorem. Eiusmod pariatur sunt nostrud veniam in sint consequat est sunt. Labore sint velit consequat quis. Deserunt mollit aute enim elit. Ex fugiat ex dolor consequat ea veniam mollit. Cupidatat sint elit dolor laboris pariatur dolor voluptate excepteur.",
-  },
-  {
-    avatar: AVTR4,
-    name: "Chimwewme Sinyinza",
-    review:
-      "Ex consequat deserunt anim magna sint Lorem. Eiusmod pariatur sunt nostrud veniam in sint consequat est sunt. Labore sint velit consequat quis. Deserunt mollit aute enim elit. Ex fugiat ex dolor consequat ea veniam mollit. Cupidatat sint elit dolor laboris pariatur dolor voluptate excepteur.",
-  }
+  // {
+  //   avatar: AVTR3,
+  //   name: "Chimwewme Sinyinza",
+  //   review:
+  //     "Ex consequat deserunt anim magna sint Lorem. Eiusmod pariatur sunt nostrud veniam in sint consequat est sunt. Labore sint velit consequat quis. Deserunt mollit aute enim elit. Ex fugiat ex dolor consequat ea veniam mollit. Cupidatat sint elit dolor laboris pariatur dolor voluptate excepteur.",
+  // },
+  // {
+  //   avatar: AVTR4,
+  //   name: "Chimwewme Sinyinza",
+  //   review:
+  //     "Ex consequat deserunt anim magna sint Lorem. Eiusmod pariatur sunt nostrud veniam in sint consequat est sunt. Labore sint velit consequat quis. Deserunt mollit aute enim elit. Ex fugiat ex dolor consequat ea veniam mollit. Cupidatat sint elit dolor laboris pariatur dolor voluptate excepteur.",
+  // }
 ];
 
 const Testimonials = () => {
