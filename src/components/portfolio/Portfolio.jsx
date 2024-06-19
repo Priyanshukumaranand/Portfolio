@@ -3,9 +3,9 @@ import './portfolio.css'
 import IMG1 from '../../assets/Portfolioimg.png'
 import IMG2 from '../../assets/EcomNext.png'
 import IMG3 from '../../assets/Uchat.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG4 from '../../assets/NFT.png'
 import IMG5 from '../../assets/Todo.png'
-import IMG6 from '../../assets/VirtualWorld.png'
+import IMG6 from '../../assets/SOP.png'
 
 const data =[
   {
@@ -16,26 +16,26 @@ const data =[
     demo:'"https://github.com/Priyanshukumaranand"',
   },
   {
-    id:2,
-    image:IMG2,
-    title:'Ecommerce-App (NextJS)',
-    github:'https://github.com/Priyanshukumaranand/Ecommerce-App',
-    demo:'https://github.com/Priyanshukumaranand',
-  },
-  {
     id:3,
     image:IMG3,
     title:'Chat Application',
     github:'https://github.com/Priyanshukumaranand/U_chat',
     demo:'https://github.com/Priyanshukumaranand',
   },
-  // {
-  //   id:4,
-  //   image:IMG4,
-  //   title:'Ecommerce-App (MERN)',
-  //   github:'https://github.com/Priyanshukumaranand/ecommerce-website',
-  //   demo:'https://github.com/Priyanshukumaranand',
-  // },
+  {
+    id:4,
+    image:IMG4,
+    title:'NFT website',
+    github:'https://github.com/Priyanshukumaranand/NFT_website.git',
+    demo:'https://github.com/Priyanshukumaranand',
+  },
+  {
+    id:2,
+    image:IMG2,
+    title:'Ecommerce-App (NextJS)',
+    github:'https://github.com/Priyanshukumaranand/Ecommerce-App',
+    demo:'https://github.com/Priyanshukumaranand',
+  },
   {
     id:5,
     image:IMG5,
@@ -46,9 +46,9 @@ const data =[
   {
     id:6,
     image:IMG6,
-    title:'Virtual World(Javascript)',
-    github:'https://github.com/Priyanshukumaranand',
-    demo:'#',
+    title:'SOP for user awareness',
+    github:'https://github.com/Priyanshukumaranand/White_Hackers.git',
+    demo:'https://priyanshukumaranand.github.io/White_Hackers/',
   }
 
 ]

@@ -10,6 +10,7 @@ import postgr from '../../assets/sql.png'
 import python from '../../assets/python.png'
 import express from '../../assets/express.png'
 import mongodb from '../../assets/mongodb.png'
+import bootstrap from '../../assets/bootstarp.png'
 
 const experiences = [
   {
@@ -37,6 +38,12 @@ const experiences = [
         id: 4,
         image: react,
         title: "REACT & REDUX",
+        status: "Experienced",
+      },
+      {
+        id: 5,
+        image: bootstrap,
+        title: "Bootstrap",
         status: "Experienced",
       }
     ]
