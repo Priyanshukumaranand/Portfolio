@@ -6,6 +6,8 @@ import IMG3 from '../../assets/Uchat.jpg'
 import IMG4 from '../../assets/NFT.png'
 import IMG5 from '../../assets/Todo.png'
 import IMG6 from '../../assets/SOP.png'
+import IMG7 from '../../assets/Chat_web.png'
+import IMG8 from '../../assets/cebootcamp.png' 
 
 const data =[
   {
@@ -14,6 +16,20 @@ const data =[
     title:'Portfolio(ReactJS)',
     github:'https://github.com/Priyanshukumaranand/Portfolio',
     demo:'"https://github.com/Priyanshukumaranand"',
+  },
+  {
+    id:8,
+    image:IMG8,
+    title:'CE Bootcamp Backend',
+    github:'https://github.com/Priyanshukumaranand/ce_bootcamp_ejs',
+    demo:'"https://github.com/Priyanshukumaranand/ce_bootcamp_ejs"',
+  },
+  {
+    id:7,
+    image:IMG7,
+    title:'React Chat App',
+    github:'https://github.com/Priyanshukumaranand/Chat-App-web',
+    demo:'"https://github.com/Priyanshukumaranand/Chat-App-web"',
   },
   {
     id:3,
