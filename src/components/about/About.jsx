@@ -30,16 +30,15 @@ const About = () => {
             <article className="about_card">
               <FaFolder className="about_icon" />
               <h5>Projects</h5>
-              <small>10+ projects completed</small>
+              <small>6+ projects completed</small>
             </article>
           </div>
-          <p>I’m a certified full-stack developer, who enjoys building interactive  interfaces with JavaScript and React.
+          <p>Hello, I'm Priyanshu, a passionate and versatile Full Stack Web Developer with a strong foundation in Data Structures and Algorithms (DSA). My journey in web development has been driven by a deep-seated curiosity and a desire to create seamless, efficient, and user-friendly web applications.
             <br />
 
             <br />
-            I'm open to Full-stack(remote/onsite) opportunities with a passion of Front-end development.
-            If you like what you see and have a project you need coded,
-            don’t hestiate to contact me.
+            I'm open to Full-stack(remote/onsite) opportunities with a passion of Full Stack development.
+            If you're interested in working together or just want to connect, feel free to reach out to me.
           </p>
           <a href="#portfolio" className="btn btn-primary"> See my projects</a>
         </div>

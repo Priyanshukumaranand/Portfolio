@@ -10,12 +10,36 @@ import IMG7 from '../../assets/Chat_web.png'
 import IMG8 from '../../assets/cebootcamp.png' 
 
 const data =[
+  // {
+  //   id:1,
+  //   image:IMG1,
+  //   title:'Portfolio(ReactJS)',
+  //   github:'https://github.com/Priyanshukumaranand/Portfolio',
+  //   demo:'"https://github.com/Priyanshukumaranand"',
+  // },
+  
+  // {
+  //   id:7,
+  //   image:IMG7,
+  //   title:'React Chat App',
+  //   github:'https://github.com/Priyanshukumaranand/Chat-App-web',
+  //   demo:'"https://github.com/Priyanshukumaranand/Chat-App-web"',
+  // },
   {
-    id:1,
-    image:IMG1,
-    title:'Portfolio(ReactJS)',
-    github:'https://github.com/Priyanshukumaranand/Portfolio',
-    demo:'"https://github.com/Priyanshukumaranand"',
+    id:3,
+    image:IMG3,
+    title:'Chat Application',
+    github:'https://github.com/Priyanshukumaranand/U_chat',
+    demo:'https://github.com/Priyanshukumaranand',
+  },
+  
+ 
+  {
+    id:5,
+    image:IMG5,
+    title:'TODO List App(ReactJS)',
+    github:'https://github.com/Priyanshukumaranand/Todo-list',
+    demo:'https://todo-list-application-gdo4.onrender.com/',
   },
   {
     id:8,
@@ -25,47 +49,25 @@ const data =[
     demo:'"https://github.com/Priyanshukumaranand/ce_bootcamp_ejs"',
   },
   {
-    id:7,
-    image:IMG7,
-    title:'React Chat App',
-    github:'https://github.com/Priyanshukumaranand/Chat-App-web',
-    demo:'"https://github.com/Priyanshukumaranand/Chat-App-web"',
-  },
-  {
-    id:3,
-    image:IMG3,
-    title:'Chat Application',
-    github:'https://github.com/Priyanshukumaranand/U_chat',
-    demo:'https://github.com/Priyanshukumaranand',
-  },
-  {
+    id:6,
+    image:IMG6,
+    title:'SOP for user awareness',
+    github:'https://github.com/Priyanshukumaranand/White_Hackers.git',
+    demo:'https://priyanshukumaranand.github.io/White_Hackers/',
+  },{
     id:4,
     image:IMG4,
     title:'NFT website',
     github:'https://github.com/Priyanshukumaranand/NFT_website.git',
     demo:'https://github.com/Priyanshukumaranand',
   },
-  {
+   {
     id:2,
     image:IMG2,
     title:'Ecommerce-App (NextJS)',
     github:'https://github.com/Priyanshukumaranand/Ecommerce-App',
     demo:'https://github.com/Priyanshukumaranand',
   },
-  {
-    id:5,
-    image:IMG5,
-    title:'TODO List App(ReactJS)',
-    github:'https://github.com/Priyanshukumaranand/Todo-list',
-    demo:'https://todo-list-application-gdo4.onrender.com/',
-  },
-  {
-    id:6,
-    image:IMG6,
-    title:'SOP for user awareness',
-    github:'https://github.com/Priyanshukumaranand/White_Hackers.git',
-    demo:'https://priyanshukumaranand.github.io/White_Hackers/',
-  }
 
 ]
 
