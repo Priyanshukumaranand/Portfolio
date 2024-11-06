@@ -9,7 +9,6 @@ const Contact = () => {
 
     const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm(process.env.REACT_APP_SERVICE_KEY, process.env.REACT_APP_TEMPLATE_KEY, form.current, process.env.REACT_APP_API_KEY)
       .then((result) => {
           console.log(result.text);
@@ -28,7 +27,7 @@ const Contact = () => {
             <MdEmail className='contact_option-icon'/>
             <h4>Email</h4>
             <h5>priyanshukumaranandofficial@gmail.com</h5>
-            <a href='#' target="_blank" rel="noreferrer">Send a message</a>
+            <a href="mailto:priyanshukumaranandofficial@gmail.com" target="_blank" rel="noopener noreferrer">Send a message</a>
           </article>
             <article className='contact_option'>
             <FaLinkedin className='contact_option-icon'/>
