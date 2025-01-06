@@ -65,4 +65,13 @@
       width: var(--container-width-sm);
    }
   }
+
+  
+@media screen and (max-width: 600px) {
+  .contact_option h5#email {
+    font-size: 0.875rem; /* Adjust font size for smaller screens */
+    word-wrap: break-word; /* Ensure long words break to the next line */
+    width: 100%; /* Ensure the text takes up the full width of the container */
+  }
+}
   
