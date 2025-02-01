@@ -5,6 +5,9 @@
     padding: 2rem 0;
     max-width: 1200px;
     margin: 0 auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
 .portfolio__item {
@@ -16,6 +19,8 @@
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    max-width: 400px;
+    margin: 0 10px;
 }
 
 .portfolio__item:hover {
@@ -54,6 +59,28 @@
 
 .carousel .slide {
     background: none;
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+    transition: transform 500ms ease;
+}
+
+/* Fix for Vercel deployment alignment */
+.carousel.carousel-slider .slider-wrapper {
+    display: flex;
+    align-items: center;
+    transition: transform 500ms ease-in-out !important;
+}
+
+.carousel .control-prev,
+.carousel .control-next {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.carousel .control-prev:hover,
+.carousel .control-next:hover {
+    opacity: 1;
 }
 
 @media screen and (max-width: 1024px) {
@@ -69,6 +96,8 @@
     }
     .portfolio__item {
         width: 95%;
+        max-width: 350px;
+        width: calc(100% - 20px);
     }
 }
 
@@ -84,6 +113,8 @@
         width: 95%;
         margin: 0 auto;
         padding: 0.75rem;
+        max-width: 300px;
+        width: calc(100% - 10px);
     }
     .portfolio__item-image {
         height: 180px;
@@ -102,6 +133,8 @@
         width: 90%;
         margin: 0 auto;
         padding: 0.75rem;
+        max-width: 280px;
+        width: 100%;
     }
     .portfolio__item-image {
         height: 160px;

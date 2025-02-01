@@ -16,11 +16,12 @@ const Achievements = () => {
     });
 
     const handleResize = () => {
-      if (window.innerWidth <= 768) {
-        setCenterSlidePercentage(100);
-        setIsCenterMode(false);
-      } else if (window.innerWidth <= 1024) {
-        setCenterSlidePercentage(50);
+      const width = window.innerWidth;
+      if (width <= 768) {
+        setCenterSlidePercentage(90);
+        setIsCenterMode(true);
+      } else if (width <= 1024) {
+        setCenterSlidePercentage(45);
         setIsCenterMode(true);
       } else {
         setCenterSlidePercentage(33.33);
@@ -45,9 +46,18 @@ const Achievements = () => {
           autoPlay 
           showStatus={false} 
           showIndicators={false}
+          emulateTouch
+          preventMovementUntilSwipeScrollTolerance
+          swipeScrollTolerance={50}
           centerMode={isCenterMode}
           centerSlidePercentage={centerSlidePercentage}
           className="w-full"
+          interval={3000}
+          swipeable={true}
+          stopOnHover={true}
+          axis="horizontal"
+          autoFocus={true}
+          transitionTime={500}
           renderIndicator={(onClickHandler, isSelected, index, label) => {
             return (
               <span
