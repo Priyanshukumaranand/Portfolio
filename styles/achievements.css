@@ -1,0 +1,105 @@
+.achievement__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.portfolio__item {
+    background: var(--color-bg-variant);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio__item:hover {
+    background: var(--color-primary-varient);
+    background: transparent;
+}
+
+.portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio__item h3 {
+    background: transparent;
+    margin: 1.2rem 0 1rem;
+    font-weight: bold;
+    color: lightblue;
+}
+
+.portfolio__cta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.carousel .slide {
+    background: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    .carousel .slide {
+        padding: 0 5px;
+    }
+    .carousel.carousel-slider {
+        padding: 0 20px;
+    }
+    .portfolio__item {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel {
+        centerMode: false;
+        centerSlidePercentage: 100;
+    }
+    .achievement__container {
+        padding: 1rem 0;
+    }
+    .portfolio__item {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .carousel .slide {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .portfolio__item {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .portfolio__item-image {
+        height: 150px;
+    }
+}

@@ -6,6 +6,8 @@ import Portfolio from "@/app/components/Portfolio";
 import Services from "@/app/components/Services";
 import Experience from "@/app/components/Experience";
 import Contact from "@/app/components/Contact";
+import Achievements from "@/app/components/Achievements";
+import Gaming from "@/app/components/Gaming";
 import '@/styles/index.css';
 
 export default function Home() {
@@ -17,9 +19,10 @@ export default function Home() {
             <Nav />
             <About />
             <Experience />
-            <Services/>
             <Portfolio />
-            {/* <Testimonials/> */}
+            <Services/>
+            <Achievements/>
+            <Gaming/>
             <Contact/>
             <Footer/>
     </div>
