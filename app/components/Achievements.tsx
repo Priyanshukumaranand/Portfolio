@@ -39,12 +39,12 @@ const Achievements = () => {
       <h5>My Achievements</h5>
       <h2>Honours</h2>
 
-      <div className="portfolio__container achievement__container">
-        <Carousel 
-          showThumbs={false} 
-          infiniteLoop 
-          autoPlay 
-          showStatus={false} 
+      <div className="portfolio__container achievement__container mx-auto">
+        <Carousel
+          showThumbs={false}
+          infiniteLoop
+          autoPlay
+          showStatus={false}
           showIndicators={false}
           emulateTouch
           preventMovementUntilSwipeScrollTolerance
@@ -61,9 +61,8 @@ const Achievements = () => {
           renderIndicator={(onClickHandler, isSelected, index, label) => {
             return (
               <span
-                className={`inline-block w-2 h-2 mx-1 rounded-full cursor-pointer ${
-                  isSelected ? 'bg-primary' : 'bg-gray-400'
-                }`}
+                className={`inline-block w-2 h-2 mx-1 rounded-full cursor-pointer ${isSelected ? 'bg-primary' : 'bg-gray-400'
+                  }`}
                 onClick={onClickHandler}
                 onKeyDown={onClickHandler}
                 key={index}
