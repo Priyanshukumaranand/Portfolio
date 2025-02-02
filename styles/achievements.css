@@ -56,12 +56,12 @@
     margin-bottom: 1rem;
 }
 
-.carousel .slide {
+/* .carousel .slide {
     background: none;
     display: flex;
     justify-content: center;
     padding: 0 5px;
-}
+} */
 
 /* Fix for Vercel deployment alignment */
 .carousel.carousel-slider {
@@ -72,10 +72,12 @@
     display: flex;
     align-items: center;
     justify-content: center; /* added to center the carousel */
+    margin: 0 auto !important;
+    transform: translateX(0) !important;
 }
 
 @media screen and (max-width: 1024px) {
-    .portfolio__container {
+    .achievement__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
@@ -113,7 +115,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .portfolio__container {
+    .achievement__container {
         grid-template-columns: 1fr;
         gap: 0.5rem;
     }

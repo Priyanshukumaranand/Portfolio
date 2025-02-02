@@ -4,6 +4,7 @@ import '@/styles/achievements.css';
 import sanityClient from "@/lib/sanity";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import dynamic from 'next/dynamic';
 
 const Achievements = () => {
   const [achievements, setAchievements] = useState([]);
@@ -35,7 +36,7 @@ const Achievements = () => {
   }, []);
 
   return (
-    <section id='portfolio'>
+    <section id='achievements'>
       <h5>My Achievements</h5>
       <h2>Honours</h2>
 
