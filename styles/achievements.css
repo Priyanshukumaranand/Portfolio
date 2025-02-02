@@ -68,6 +68,7 @@
 .carousel.carousel-slider .slider-wrapper {
     display: flex;
     align-items: center;
+    justify-content: center; /* added to center the carousel */
 }
 
 @media screen and (max-width: 1024px) {
