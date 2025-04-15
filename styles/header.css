@@ -37,13 +37,21 @@ header {
   .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 20rem;
+    height: 30rem; /* Increased height to fit image better */
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    margin-top: 3rem;
+    border-radius: 10rem 10rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 4rem 0.5rem 0rem 0.5rem; /* Reduced top padding to prevent image cropping */
+  }
+
+  /* Add this if there's an img element inside */
+  .me img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
   }
   
   .scroll_down {

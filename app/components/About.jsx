@@ -8,6 +8,11 @@ import { FaAward, FaCertificate, FaFolder } from "react-icons/fa";
 const About = () => {
   return (
     <section id="about">
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <h5>Hello I'm</h5>
       <h2>Priyanshu Kumar Anand</h2>
       <h2 className="text-light"> Full-stack Developer</h2>
