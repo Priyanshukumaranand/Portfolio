@@ -4,6 +4,7 @@ import "@/styles/header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 import sanityClient from "@/lib/sanity";
+import Image from 'next/image';
 
 const Header = () => {
   const [profilePic, setProfilePic] = useState("");
@@ -27,7 +28,9 @@ const Header = () => {
         <h5 className="text-light"> Fullstack Developer</h5>
         <CTA />
         <HeaderSocials />
-        {profilePic && <img src={profilePic} alt="me" className="me" />}
+        {profilePic && (
+          <Image src={profilePic} alt="me" className="me" width={300} height={300} />
+        )}
         <a href="#contact" className="scroll_down">
           Scroll Down
         </a>

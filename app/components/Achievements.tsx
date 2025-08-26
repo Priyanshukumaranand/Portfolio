@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import '@/styles/achievements.css';
 import sanityClient from "@/lib/sanity";
+import Image from 'next/image';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
@@ -77,7 +78,9 @@ const Achievements = () => {
         >
           {achievements.map(({ _id, imageUrl, heading, description, date }) => (
             <div key={_id} className='portfolio__item mx-1 sm:mx-0'>
-              <img src={imageUrl} alt={heading} className="h-40 sm:h-48 w-full object-cover rounded-xl" />
+              {imageUrl && (
+                <Image src={imageUrl} alt={heading} width={400} height={192} className="h-40 sm:h-48 w-full object-cover rounded-xl" />
+              )}
               <h3 className="text-base sm:text-lg">{heading}</h3>
               <p className="text-xs sm:text-sm">{description}</p>
               <p className="text-xs text-gray-400 mt-1 sm:mt-2">{new Date(date).toLocaleDateString()}</p>

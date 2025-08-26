@@ -3,6 +3,7 @@ import React from 'react'
 import { useEffect, useState } from "react";
 import '@/styles/portfolio.css';
 import sanityClient from "@/lib/sanity";
+import Image from 'next/image';
 
 const Portfolio = () => {
   const [portfolios, setPortfolios] = useState([]);
@@ -33,7 +34,9 @@ const Portfolio = () => {
             return (
               <article key={id} className='portfolio__item'>
                 <div className='portfolio__item-image'>
-                  <img src={imageUrl} alt={title} />
+                  {imageUrl && (
+                    <Image src={imageUrl} alt={title} width={400} height={260} style={{objectFit:'cover', width:'100%', height:'100%'}} />
+                  )}
                 </div>
                 <h3 className='portfolio__item h3'>{title}</h3>
                 <div className='portfolio__cta'>

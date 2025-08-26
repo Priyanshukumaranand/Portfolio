@@ -64,16 +64,24 @@
 } */
 
 /* Fix for Vercel deployment alignment */
+/* Ensure carousel centers consistently in production (Vercel) */
 .carousel.carousel-slider {
-    margin: 0 auto; /* added to center the carousel */
+    margin: 0 auto;
+    width: 100%;
 }
 
+/* Let the library manage the translateX needed for proper centering.
+   We only constrain width + horizontal centering of the wrapper. */
 .carousel.carousel-slider .slider-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* added to center the carousel */
     margin: 0 auto !important;
-    transform: translateX(0) !important;
+    width: 100%;
+    /* removed manual transform override which caused left shift in prod */
+}
+
+/* Additional wrapper flex centering for varied slide widths */
+.achievement__container .carousel .slider {
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {

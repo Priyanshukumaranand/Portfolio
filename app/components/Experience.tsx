@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import "@/styles/experience.css";
 import sanityClient from "@/lib/sanity";
+import Image from 'next/image';
 
 interface Skill {
   title: string;
@@ -45,7 +46,9 @@ const Experience = () => {
             <div className="experience_content">
               {skills.map(({ title, imageUrl, status }, skillIndex) => (
                 <article key={skillIndex} className="experience_details">
-                  <img src={imageUrl} className="experience_details-icon" alt={title} />
+                  {imageUrl && (
+                    <Image src={imageUrl} className="experience_details-icon" alt={title} width={40} height={40} />
+                  )}
                   <div>
                     <h4>{title}</h4>
                     <small className="text-light">{status}</small>
